@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transformation_entries">
+        <item>Overslide</item>
+        <item>Slide</item>
+        <item>Crossfade</item>
+        <item>Tumble</item>
+        <item>Page</item>
+        <item>Cascade</item>
+        <item>Rotate</item>
+        <item>Cube</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>Theme default</item>
+        <item>Center</item>
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    <string-array name="gadget_weather_theme_type_entries">
+        <item>Default</item>
+        <item>Classic</item>
+    </string-array>
+    <string-array name="editing_mode_entries">
+        <item>Move apps</item>
+        <item>Widgets</item>
+        <item>Wallpaper</item>
+        <item>Effects</item>
+    </string-array>
+</resources>

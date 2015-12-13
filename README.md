@@ -1,0 +1,8 @@
+MIUI-V7-Finnish
+===============
+
+Xiaomi MIUI V7 Finnish Translation Strings Provided By Dogiex
+
+Finnish translation will be done when I have time to translate - Feel free to help me.
+
+Credits To Xiaomi & MIUI Adria for English translation.

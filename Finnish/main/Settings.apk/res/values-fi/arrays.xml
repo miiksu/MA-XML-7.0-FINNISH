@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Yhdysvallat</item>
+        <item>Eurooppa</item>
+        <item>Afrikka</item>
+        <item>Aasia</item>
+        <item>Australia</item>
+        <item>Pacific</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekuntia</item>
+        <item>30 sekuntia</item>
+        <item>1 minuutti</item>
+        <item>2 minuuttia</item>
+        <item>5 minuuttia</item>
+        <item>10 minuuttia</item>
+        <item>Ei koskaan</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Ei koskaan</item>
+        <item>15 sekuntia</item>
+        <item>30 sekuntia</item>
+        <item>1 minuutti</item>
+        <item>2 minuuttia</item>
+        <item>5 minuuttia</item>
+        <item>10 minuuttia</item>
+        <item>30 minuuttia</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Välittömästi</item>
+        <item>5 sekuntia</item>
+        <item>15 sekuntia</item>
+        <item>30 sekuntia</item>
+        <item>1 minuutti</item>
+        <item>2 minuuttia</item>
+        <item>5 minuuttia</item>
+        <item>10 minuuttia</item>
+        <item>30 minuuttia</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Pieni</item>
+        <item>Normaali</item>
+        <item>Iso</item>
+        <item>Valtava</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Tosi hidas</item>
+        <item>Hidas</item>
+        <item>Normaali</item>
+        <item>Nopea</item>
+        <item>Nopeampi</item>
+        <item>Tosi nopea</item>
+        <item>Vikkelä</item>
+        <item>Tosi vikkelä</item>
+        <item>Nopein</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Tosi alhainen</item>
+        <item>Alhainen</item>
+        <item>Normaali</item>
+        <item>Korkea</item>
+        <item>Tosi korkea</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Etsitään…</item>
+        <item>Yhdistetään…</item>
+        <item>Todennetaan</item>
+        <item>Hankitaan IP osoite…</item>
+        <item>Yhdistetty</item>
+        <item>Keskeytetty</item>
+        <item>Katkaistaan…</item>
+        <item>Katkaistu</item>
+        <item>Epäonnistui</item>
+        <item>Torjuttu</item>
+        <item>Väliaikaisesti vältetään huonoa yhteyttä</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Etsitään</item>
+        <item>Yhdistetään verkkoon %1$s…</item>
+        <item>Todennetaan %1$s kanssa…</item>
+        <item>Hankitaan IP osoite verkolta %1$s…</item>
+        <item>Yhdistetty verkkoon %1$s</item>
+        <item>Keskeytetty</item>
+        <item>Katkaistaan yhteys verkosta %1$s…</item>
+        <item>Katkaistu</item>
+        <item>Epäonnistui</item>
+        <item>Torjuttu</item>
+        <item>Väliaikaisesti vältetään huonoa yhteyttä</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Paina nappia</item>
+        <item>PIN yhdistettävästä laitteesta</item>
+        <item>PIN tästä laitteesta</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Yhdistetty</item>
+        <item>Kutsuttu</item>
+        <item>Epäonnistui</item>
+        <item>Saatavilla</item>
+        <item>Alueen ulkopuolella</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuuttia</item>
+        <item>5 minuuttia</item>
+        <item>1 tunti</item>
+        <item>Ei koskaan</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Heikko</item>
+        <item>Kohtalainen</item>
+        <item>Hyvä</item>
+        <item>Erinomainen</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Aina</item>
+        <item>Vain latauksessa</item>
+        <item>Ei koskaan (nostaa datan käyttöä)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Aina</item>
+        <item>Vain latauksessa</item>
+        <item>Ei koskaan</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automaattinen</item>
+        <item>Vain 5 GHz</item>
+        <item>Vain 2.4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Käyttöaika</item>
+        <item>Käynnistyksien määrä</item>
+        <item>Sovelluksen nimi</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Staattinen</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Ei mitään</item>
+        <item>Manuaalinen</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Pois päältä</item>
+        <item>Hälytys</item>
+        <item>Tärinä</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Laitteen sisäinen muisti</item>
+        <item>Laitteen SD kortti</item>
+        <item>Anna järjestelmän valita</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Location</item>
+        <item>Personal</item>
+        <item>Messaging</item>
+        <item>Media</item>
+        <item>Device</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Location</item>
+        <item>Location</item>
+        <item>Location</item>
+        <item>Vibrate</item>
+        <item>Read contacts</item>
+        <item>Modify contacts</item>
+        <item>Read call log</item>
+        <item>Modify call log</item>
+        <item>Read calendar</item>
+        <item>Modify calendar</item>
+        <item>Location</item>
+        <item>Post notification</item>
+        <item>Location</item>
+        <item>Call phone</item>
+        <item>Read SMS/MMS</item>
+        <item>Write SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Send SMS/MMS</item>
+        <item>Read SMS/MMS</item>
+        <item>Write SMS/MMS</item>
+        <item>Modify settings</item>
+        <item>Draw on top</item>
+        <item>Access notifications</item>
+        <item>Camera</item>
+        <item>Record audio</item>
+        <item>Play audio</item>
+        <item>Read clipboard</item>
+        <item>Modify clipboard</item>
+        <item>Media buttons</item>
+        <item>Audio focus</item>
+        <item>Master volume</item>
+        <item>Voice volume</item>
+        <item>Ring volume</item>
+        <item>Media volume</item>
+        <item>Alarm volume</item>
+        <item>Notification volume</item>
+        <item>Bluetooth volume</item>
+        <item>Keep awake</item>
+        <item>Location</item>
+        <item>Location</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Very small</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Very large</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>None</item>
+        <item>Outline</item>
+        <item>Drop shadow</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>White on black</item>
+        <item>Black on white</item>
+        <item>Yellow on black</item>
+        <item>Yellow on blue</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Never check</item>
+        <item>Check for DRM content only</item>
+        <item>Always check</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>None</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+        <item></item>
+        <item>720x480/160</item>
+        <item>720x480/160,secure</item>
+        <item>1280x720/213</item>
+        <item>1280x720/213,secure</item>
+        <item>1920x1080/320</item>
+        <item>1920x1080/320,secure</item>
+        <item>1280x720/213;1920x1080/320</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>None</item>
+        <item>Logcat</item>
+        <item>Systrace (Graphics)</item>
+        <item>Call stack on glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Off</item>
+        <item>Draw non-rectangular clip region in blue</item>
+        <item>Highlight tested drawing commands in green</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Off</item>
+        <item>On screen as bars</item>
+        <item>On screen as lines</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Off</item>
+        <item>Show overdraw areas</item>
+        <item>Show areas for Deuteranomaly</item>
+        <item>Show overdraw counter</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standard limit</item>
+        <item>No background processes</item>
+        <item>At most 1 process</item>
+        <item>At most 2 processes</item>
+        <item>At most 3 processes</item>
+        <item>At most 4 processes</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Disconnected</item>
+        <item>Initializing…</item>
+        <item>Connecting…</item>
+        <item>Connected</item>
+        <item>Timeout</item>
+        <item>Unsuccessful</item>
+    </string-array>
+    <string-array name="user_content_ratings_entries">
+        <item>Ascended being</item>
+        <item>Human</item>
+        <item>Neanderthal</item>
+        <item>Chimp</item>
+        <item>Monkey</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Ask</item>
+        <item>Never allow</item>
+        <item>Always allow</item>
+    </string-array>
+    <string-array name="haptic_feedback_level_entries">
+        <item>Strong</item>
+        <item>Medium</item>
+        <item>Light</item>
+    </string-array>
+    <string-array name="media_feedback_level_entries">
+        <item>Strong</item>
+        <item>Medium</item>
+        <item>Light</item>
+    </string-array>
+    <string-array name="battery_indicator_style_entries">
+        <item>Graphical</item>
+        <item>Percentage</item>
+        <item>Top bar</item>
+    </string-array>
+    <string-array name="usb_connection_mode_entries">
+        <item>Ask upon connection</item>
+        <item>Charge only</item>
+        <item>Mount SD card</item>
+    </string-array>
+    <string-array name="led_freq_entries">
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+        <item>4 seconds</item>
+        <item>5 seconds</item>
+        <item>6 seconds</item>
+        <item>7 seconds</item>
+        <item>8 seconds</item>
+        <item>9 seconds</item>
+    </string-array>
+    <string-array name="mi1_led_color_entries">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Violet</item>
+        <item>Purple</item>
+    </string-array>
+    <string-array name="led_color_entries">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Cyan</item>
+        <item>White</item>
+        <item>Violet</item>
+    </string-array>
+    <string-array name="screen_key_long_press_action">
+        <item>None</item>
+        <item>Show recent apps tray</item>
+        <item>Launch Assistant</item>
+        <item>Launch Google now</item>
+        <item>Close current app</item>
+        <item>Show menu</item>
+    </string-array>
+    <string-array name="screen_key_long_press_timeout">
+        <item>0.5 second</item>
+        <item>1 second</item>
+        <item>1.5 seconds</item>
+        <item>2 seconds</item>
+    </string-array>
+    <string-array name="button_light_timeout_entries">
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="wfd_status">
+        <item>Starting session…</item>
+        <item>Session started</item>
+        <item>Tearing down…</item>
+        <item>"Can't start session"</item>
+        <item>Timed out. Retrying…</item>
+        <item>Device connected</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>Performance</item>
+        <item>Balanced</item>
+    </string-array>
+    <string-array name="msd_pc_system">
+        <item>Windows XP and older</item>
+        <item>Windows Vista and newer</item>
+        <item>OSX</item>
+        <item>Linux</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_linux">
+        <item>Install tool: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
+        <item>Create a directory: mkdir /media/mtp</item>
+        <item>Confirm user group permissions in the current fuse user group</item>
+        <item>Sign in again</item>
+        <item>Access mounted device: mtpfs /media/mtp via file explorer; same as local directory</item>
+        <item>"Uninstall device: fusermount -u /media/mtp
+Note: Only for Ubuntu 8.04!"</item>
+    </string-array>
+    <string-array name="screen_color_title">
+        <item>Warm</item>
+        <item>Standard</item>
+        <item>Cool</item>
+    </string-array>
+    <string-array name="screen_saturation_title">
+        <item>Brilliant</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="perm_hips_action">
+        <item>Allow</item>
+        <item>Ask</item>
+        <item>Deny</item>
+    </string-array>
+    <string-array name="startup_hips_action">
+        <item>Allow</item>
+        <item>Deny</item>
+    </string-array>
+    <string-array name="phone_call_noise_suppression_title">
+        <item>Single-mic noise suppression</item>
+        <item>Dual-mic noise suppression</item>
+    </string-array>
+    <string-array name="change_security_lock_picker">
+        <item>Face unlock</item>
+        <item>Pattern</item>
+        <item>PIN</item>
+        <item>Password</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Automatically connect</item>
+        <item>Manually connect</item>
+        <item>Always ask</item>
+    </string-array>
+    <string-array name="slideshow_time_entries">
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>Unlimited</item>
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>Launcher</item>
+        <item>Dial</item>
+        <item>Messaging</item>
+        <item>Browser</item>
+        <item>Camera</item>
+        <item>Gallery</item>
+        <item>Music</item>
+        <item>Email</item>
+    </string-array>
+    <string-array name="network_speed_slow_summary">
+        <item>Network is slow due to too much traffic</item>
+        <item>Network is slow due to weak signal strength</item>
+        <item>Moving…</item>
+    </string-array>
+    <string-array name="priority_storage_entries">
+        <item>Internal storage</item>
+        <item>External storage</item>
+    </string-array>
+    <string-array name="miracast_policies">
+        <item>Shorter delay</item>
+        <item>Standard</item>
+        <item>Better quality</item>
+    </string-array>
+</resources>

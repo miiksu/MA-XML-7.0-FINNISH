@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Verkkosijainti</string>
+    <string name="location_warning_title">Sijainnin suostumus</string>
+    <string name="location_warning_message">"Hyväksy AutoNavi:n sijaintipalveluiden kerätä sijaintitietoja anonyymisti. Joitain tietoja saattaa tallentua laitteelle, tiedon keruu voi tapahtua ilman, että ohjelmia on päällä. Tiedonsiirtoon sovelletaan operaattorikohtaisia tiedonsiirtomaksuja."</string>
+    <string name="agree">Hyväksy</string>
+    <string name="disagree">Hylkää</string>
+</resources>
