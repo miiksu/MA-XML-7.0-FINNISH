@@ -5,11 +5,10 @@
     <string name="app_label">System UI</string>
     <string name="status_bar_recent_inspect_item_title">App info</string>
     <string name="status_bar_no_recent_apps">No recent apps</string>
-    <string name="battery_low_title">Connect charger</string>
-    <string name="battery_low_subtitle">The battery is getting low.</string>
-    <string name="battery_low_percent_format">%d%% remaining</string>
-    <string name="invalid_charger">"USB charging not supported.
-Use only the supplied charger."</string>
+    <string name="battery_low_title">Yhdistä laturi</string>
+    <string name="battery_low_subtitle">Akun varaus on alhainen.</string>
+    <string name="battery_low_percent_format">%d%% jäljellä</string>
+    <string name="invalid_charger">"USB-lataus ei ole tuettu. Käytä vain laitteen mukana tullutta laturia."</string>
     <string name="battery_low_why">Battery use</string>
     <string name="status_bar_settings_airplane">Airplane mode</string>
     <string name="status_bar_settings_battery_meter_format">%d%%</string>

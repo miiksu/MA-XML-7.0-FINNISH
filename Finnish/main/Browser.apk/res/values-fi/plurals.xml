@@ -2,13 +2,13 @@
 <resources>
     <plurals name="webview_matches_found">
         <item quantity="other">%1$d of %2$d</item>
-        <item quantity="one">1 match</item>
+        <item quantity="one">1 osuma</item>
     </plurals>
     <plurals name="webview_last_num_days">
-        <item quantity="other">Last %d days</item>
+        <item quantity="other">Viimeiseen %d päivään</item>
     </plurals>
     <plurals name="v5_edit_mode_title">
-        <item quantity="other">%1$d selected</item>
-        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d valittu</item>
+        <item quantity="one">%1$d valittu</item>
     </plurals>
 </resources>

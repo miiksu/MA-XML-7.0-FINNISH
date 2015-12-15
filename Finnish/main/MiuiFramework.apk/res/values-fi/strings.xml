@@ -176,7 +176,7 @@
     <string name="alwaysUsePrompt">Muista tämä valinta</string>
     <string name="call_record_sample_prefix_miui">Puhelu</string>
     <string name="fm_record_smaple_prefix_miui">FM nauhoitus</string>
-    <string name="unknown_caller">Tuntematon soittaja</string>
+    <string name="unknown_caller">Tuntematon</string>
     <string name="call_record_or">" tai "</string>
     <string name="presentation_unknown">Tuntematon numero</string>
     <string name="presentation_private">Yksityinen numero</string>
